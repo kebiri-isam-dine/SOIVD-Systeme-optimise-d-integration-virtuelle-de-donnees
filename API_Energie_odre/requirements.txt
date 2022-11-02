@@ -1,0 +1,12 @@
+Les librairies python : 
+
+json
+requests
+bs4.BeautifulSoup 
+pandas
+pandasql.sqldf
+termcolor.colored # optionnel 
+
+
+
+Lien doc api : https://odre.opendatasoft.com/explore/dataset/consommation-quotidienne-brute-regionale
