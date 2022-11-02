@@ -1,6 +1,6 @@
 # SOIVD – Système optimisé d’intégration virtuelle de données
-Chef d'œuvre – Projet fin d’étude
-Université Toulouse III - Paul Sabatier
+**Chef d'œuvre – Projet fin d’étude** \
+**Université Toulouse III - Paul Sabatier**
 
 
 ## Présentations
