@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-item: center;
+}
+
+.cards {
+    background-color: #c6e3fa;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-raduis: 2px;
+}
