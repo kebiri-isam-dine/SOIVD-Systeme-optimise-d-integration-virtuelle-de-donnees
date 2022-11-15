@@ -139,7 +139,7 @@ pendulum @ file:///tmp/build/80754af9/pendulum_1605120908839/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 phonenumbers @ file:///tmp/build/80754af9/phonenumbers_1626154302581/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.2.0
+Pillow==9.3.0
 platformdirs @ file:///C:/b/abs_73cc5cz_1u/croots/recipe/platformdirs_1662711386458/work
 pluggy @ file:///C:/ci/pluggy_1648024580010/work
 ply==3.11
