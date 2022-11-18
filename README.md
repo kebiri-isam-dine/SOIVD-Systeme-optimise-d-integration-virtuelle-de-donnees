@@ -6,7 +6,7 @@
 ## Présentations
 
 Membres du groupe :
--	ERREBIAI Chaimae
+-	ERREBIAI Chaimae : chaimae.errebiai2@gmail.com
 -	KEBIRI Issam Eddine : kebiri.isam.dine@gmail.com 
 -	GHORBEL Ahmed Amine : ghorbelahmedaminelfet@gmail.com 
 -	HADDOU khalid : khalidhaddou99@gmail.com 
