@@ -36,6 +36,14 @@ Responsable pédagogique :
      3) flask run
  - Taper dans l'url :  http://127.0.0.1:5000/
  - Obtenir les résultats affichés dans la page web
+ 
+## Affichage:
+![alt text](https://imagizer.imageshack.com/img922/8676/2o56BP.png)
+
+# Références:
+ - Anaconda : https://www.anaconda.com/products/distribution
+ - Flask : https://flask.palletsprojects.com/en/2.2.x/
+ - Environnement vituel : https://pypi.org/project/virtualenv/ && https://anaconda.org/conda-forge/virtualenv
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation
