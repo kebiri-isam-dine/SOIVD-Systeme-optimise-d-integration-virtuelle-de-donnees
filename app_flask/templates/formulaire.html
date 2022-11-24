@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Bienvenue sur  SOIVD !</h1>
+
+    <form action="{{url_for('post_submit')}}" method="POST">
+        <div class="form-group" >
+          <label for="city">City</label>
+          <input type="text" class="form-control" name="city" id="city" placeholder="Toulouse, Paris, Rennes ...">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="meteo">Infos Météo</label>
+          <select class="form-control" id="meteo" name="meteo">
+            <option>Current Weather</option>
+            <option>Evening Weather </option>
+            <option>tomorrow's Weather </option>
+            <option>Humidity</option>
+            <option>Etc ... </option>
+
+          </select>
+        </div>
+        <br> 
+        <div class="form-group">
+            <label for="energie">Infos Energies</label>
+            <select class="form-control" id="energie" name="energie">
+              <option>Requête 1</option>
+              <option>Requête 2 </option>
+              <option>Requête 3 </option>
+              <option>Etc ... </option>
+  
+            </select>
+        </div>
+        <br> <br> 
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
