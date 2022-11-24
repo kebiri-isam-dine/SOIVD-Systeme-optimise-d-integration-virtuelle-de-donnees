@@ -18,6 +18,8 @@ Responsable pédagogique :
 
 
 # Exemple d'usage de l'API Consommation d'électricite et de Gaz
+## Documentation 
+  Documentation de l'api dans ./API_ConsommationElectriciteGaz/Description de l'API.pdf
 ## Mise en place de l'environnement et installations :
  - Création d'un environnement virtuel soit avec anaconda soit avec la commande -m venv <environment name> sous python
  - Dans le cas où l'env virtuel est crée par Anaconda, il faut spécifier dans le anaconda prompt : conda activate <environment name>
@@ -27,9 +29,15 @@ Responsable pédagogique :
  - Dossier static : contient tous les fichiers de style et les images si vous aurez besoin
  - Dossier templates : contient tous les fichiers html pour la partie front-end du projet
  - Fichier app.py : pour définir le logique et les endpoints
- 
+## Exécution du programme : 
+ - Dans la commande prompt d'anaconda : 
+     1) set FLASK_APP=app.py
+     2) set FLASK_ENV=development
+     3) flask run
+ - Taper dans l'url :  http://127.0.0.1:5000/
+ - Obtenir les résultats affichés dans la page web
 
-
+------------------------------------------------------------------------------------------------------------------------------
 ## Installation
 
 exempleeee
