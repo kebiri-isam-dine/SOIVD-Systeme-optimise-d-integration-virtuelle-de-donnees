@@ -39,7 +39,8 @@ Responsable pédagogique :
  
 ## Affichage:
 ![alt text](https://imagizer.imageshack.com/img922/8676/2o56BP.png)
-
+![alt text](https://imagizer.imageshack.com/img923/2163/d1oSyG.png)
+![alt text](https://imagizer.imageshack.com/img924/9269/uhHval.png)
 # Références:
  - Anaconda : https://www.anaconda.com/products/distribution
  - Flask : https://flask.palletsprojects.com/en/2.2.x/
