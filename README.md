@@ -1,12 +1,26 @@
+<<<<<<< Updated upstream
 # SOIVD – Système Optimisé d’Intégration Virtuelle de Données
+=======
+# SOIVD – Système optimisé d’intégration virtuelle de données
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Master2-IAFA/65307369?color=red)
+![GitHub contributors](https://img.shields.io/github/contributors/Master2-IAFA/65307369?style=social)
+
+>>>>>>> Stashed changes
 **Chef d'œuvre – Projet fin d’étude** \
 **Université Toulouse III - Paul Sabatier**
 
 
-## Présentations
+## About The Project
 
 Membres du groupe :
+<<<<<<< Updated upstream
 -	ERREBIAI Chaimae : chaimae.errebiai2@gmail.com
+=======
+
+- ERREBIAI Chaimae : chaimae.errebiai2@gmail.com
+>>>>>>> Stashed changes
 -	KEBIRI Issam Eddine : kebiri.isam.dine@gmail.com 
 -	GHORBEL Ahmed Amine : ghorbelahmedaminelfet@gmail.com 
 -	HADDOU khalid : khalidhaddou99@gmail.com 
@@ -48,7 +62,7 @@ Responsable pédagogique :
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation
 
-exempleeee
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install XXXXX
 
 ```bash
 pip install exempleeee
