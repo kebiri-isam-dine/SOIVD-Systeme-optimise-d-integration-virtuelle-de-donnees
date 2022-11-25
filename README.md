@@ -1,13 +1,10 @@
-<<<<<<< Updated upstream
-# SOIVD – Système Optimisé d’Intégration Virtuelle de Données
-=======
 # SOIVD – Système optimisé d’intégration virtuelle de données
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Master2-IAFA/65307369?color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/Master2-IAFA/65307369?style=social)
 
->>>>>>> Stashed changes
+
 **Chef d'œuvre – Projet fin d’étude** \
 **Université Toulouse III - Paul Sabatier**
 
@@ -15,19 +12,15 @@
 ## About The Project
 
 Membres du groupe :
-<<<<<<< Updated upstream
--	ERREBIAI Chaimae : chaimae.errebiai2@gmail.com
-=======
 
 - ERREBIAI Chaimae : chaimae.errebiai2@gmail.com
->>>>>>> Stashed changes
 -	KEBIRI Issam Eddine : kebiri.isam.dine@gmail.com 
 -	GHORBEL Ahmed Amine : ghorbelahmedaminelfet@gmail.com 
 -	HADDOU khalid : khalidhaddou99@gmail.com 
 -	ABAKAR Issa : issaabakar17@gmail.com 
 
 Responsable pédagogique :
--	SHAOYI Yin : shaoyi.yin@irit.fr
+- SHAOYI Yin : shaoyi.yin@irit.fr
 
 
 
@@ -59,32 +52,6 @@ Responsable pédagogique :
  - Flask : https://flask.palletsprojects.com/en/2.2.x/
  - Environnement vituel : https://pypi.org/project/virtualenv/ && https://anaconda.org/conda-forge/virtualenv
 
-------------------------------------------------------------------------------------------------------------------------------
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install XXXXX
-
-```bash
-pip install exempleeee
-```
-
-## Usage
-
-```python
-import exempleee
-
-# returns 'words'
-exempleee.pluralize('word')
-
-# returns 'geese'
-exempleee.pluralize('goose')
-
-# returns 'phenomenon'
-exempleee.singularize('phenomena')
-```
-
-## API
-
-exempleeee
 
 
