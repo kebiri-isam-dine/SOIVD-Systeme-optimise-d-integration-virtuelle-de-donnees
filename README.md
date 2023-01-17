@@ -2,6 +2,10 @@
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Master2-IAFA/65307369?color=red)
+![GitHub dev_language](https://img.shields.io/badge/Python-yellow?style=flat&logo=python&logoColor=white) 
+![GitHub dev_language](https://img.shields.io/badge/Nltk-blue?style=flat&logo=solidity&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/Pandas-6aa84f?style=flat&logo=pandas&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/Scikit--learn-orange?style=flat&logo=scikit-learn&logoColor=white)
 ![GitHub contributors](https://img.shields.io/github/contributors/Master2-IAFA/65307369?style=social)
 
 
