@@ -1,7 +1,7 @@
 # SOIVD – Système optimisé d’intégration virtuelle de données
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Master2-IAFA/65307369?color=red)
+![GitHub last commit](https://img.shields.io/github/last-commit/Master2-IAFA/65307369?color=red&style=for-the-badge)
 
 ![GitHub dev_language](https://img.shields.io/badge/Python-yellow?style=flat&logo=python&logoColor=white)
 ![GitHub dev_language](https://img.shields.io/badge/Jupyter-orange?style=flat&logo=jupyter&logoColor=white)
