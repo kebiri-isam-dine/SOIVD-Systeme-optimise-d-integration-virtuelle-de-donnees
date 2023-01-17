@@ -50,6 +50,7 @@ Un accès uniforme à des sources multiples, autonomes et hétérogènes et stru
 
 #### Built With
 - Python
+- Flask
 - Pandas
 - APIs
 
@@ -61,6 +62,7 @@ Use the package manager `pip` to install
 pip install pandasql
 pip install contextlib
 pip install bs4
+pip install dateutil
 ```
 
 ## Packages
@@ -78,7 +80,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup as bs
 ```
 ## Conception
-L'architecture globale
+La figure ci-dessus représente l’architecture adoptée pour la réalisation du présent projet. Il s’agit d’une architecture Adaptateur-Médiateur dont on va utiliser l’approche GAV
 <img src="./Diagrams/SOIVD_Global_architecture.jpg">
 
 Diagramme de séquence
@@ -100,21 +102,16 @@ Choix des BDs : Nous avons choisi les bases de données par rapport aux contexte
 
 
 
-
-
-### Exemple d'usage de l'API Consommation d'électricite et de Gaz
-## Documentation 
-  Documentation de l'api dans ./API_ConsommationElectriciteGaz/Description de l'API.pdf
-## Mise en place de l'environnement et installations :
+## Mise en place de l'environnement 
  - Création d'un environnement virtuel soit avec anaconda soit avec la commande -m venv <environment name> sous python
  - Dans le cas où l'env virtuel est crée par Anaconda, il faut spécifier dans le anaconda prompt : conda activate <environment name>
  - Pointer sur le dossier API_ConsommationElectriciteGaz (./API_ConsommationElectriciteGaz)
  - Installer les bibliothèques nécessaires dans le fichier requirements.txt (Flask, requests, json, ...)
-## Exploration de l'architecture de projet flask : 
+#### Exploration de l'architecture de projet flask : 
  - Dossier static : contient tous les fichiers de style et les images si vous aurez besoin
  - Dossier templates : contient tous les fichiers html pour la partie front-end du projet
  - Fichier app.py : pour définir le logique et les endpoints
-## Exécution du programme : 
+#### Exécution de l'app Flask
  - Dans la commande prompt d'anaconda : 
      1) set FLASK_APP=app.py
      2) set FLASK_ENV=development
@@ -122,10 +119,10 @@ Choix des BDs : Nous avons choisi les bases de données par rapport aux contexte
  - Taper dans l'url :  http://127.0.0.1:5000/
  - Obtenir les résultats affichés dans la page web
  
-## Affichage:
+#### Affichage:
 ![alt text](https://imagizer.imageshack.com/img922/8676/2o56BP.png)
 ![alt text](https://imagizer.imageshack.com/img923/2163/d1oSyG.png)
-# Références:
+## Références:
  - Anaconda : https://www.anaconda.com/products/distribution
  - Flask : https://flask.palletsprojects.com/en/2.2.x/
  - Environnement vituel : https://pypi.org/project/virtualenv/ && https://anaconda.org/conda-forge/virtualenv
