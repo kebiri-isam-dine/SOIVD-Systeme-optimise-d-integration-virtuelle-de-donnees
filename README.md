@@ -13,8 +13,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Master2-IAFA/65307369?style=social)
 
 
-**Chef d'œuvre – Projet fin d’étude** \
-**Université Toulouse III - Paul Sabatier**
+# **Chef d'œuvre – Projet fin d’étude** 
+### **Université Toulouse III - Paul Sabatier**
 
 Membres du groupe :
 
@@ -107,7 +107,7 @@ Choix des BDs : Nous avons choisi les bases de données par rapport aux contexte
  - Dans le cas où l'env virtuel est crée par Anaconda, il faut spécifier dans le anaconda prompt : conda activate <environment name>
  - Pointer sur le dossier API_ConsommationElectriciteGaz (./API_ConsommationElectriciteGaz)
  - Installer les bibliothèques nécessaires dans le fichier requirements.txt (Flask, requests, json, ...)
-#### Exploration de l'architecture de projet flask : 
+#### Exploration de l'architecture du projet flask 
  - Dossier static : contient tous les fichiers de style et les images si vous aurez besoin
  - Dossier templates : contient tous les fichiers html pour la partie front-end du projet
  - Fichier app.py : pour définir le logique et les endpoints
