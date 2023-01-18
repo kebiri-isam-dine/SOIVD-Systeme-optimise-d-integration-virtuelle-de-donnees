@@ -33,11 +33,9 @@ Données – SOIVD qui exploitera différentes bases de données en relation ave
 l’énergie et la météo afin d’apporter une analyse du contexte actuel de crise
 d'énergies.
 ##### Contexte
-● Évolution vers de grosses quantités de données (Big Data)
-● Plusieurs sources d’informations (SGBD relationnels, fichiers, applications,
-pages Web ...)
-● Des données de plus en plus hétérogènes et interfaces d’accès variées
-(langages d’interrogation, modèle de données, interfaces d’appel …)
+● Évolution vers de grosses quantités de données (Big Data)     
+● Plusieurs sources d’informations (SGBD relationnels, fichiers, applications, pages Web ...)    
+● Des données de plus en plus hétérogènes et interfaces d’accès variées (langages d’interrogation, modèle de données, interfaces d’appel …)   
 
 ##### Solution proposée  
 Un Système Optimisé d’Intégration Virtuelle De Données - SOIVD avec une
