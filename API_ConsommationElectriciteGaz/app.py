@@ -19,7 +19,7 @@ app = Flask(__name__)
 def index():
     
     #make request to the url
-    req = requests.get('https://odre.opendatasoft.com/api/records/1.0/search/?dataset=consommation-quotidienne-brute-regionale&q=&sort=-consommation_brute_gaz_grtgaz&facet=date_heure&facet=code_insee_region&facet=region')
+    req = requests.get('https://tinyurl.com/4f95debc')
     #check if there is an error
     #print(req.content)s
     #Convert the data into python dictionnary  using the json model 
@@ -34,7 +34,7 @@ def index():
 def meteo():
     
     #make request to the url
-    req = requests.get('https://api.meteo-concept.com/api/location/city?token=52ebc3d1727531839be80111618a968c106331d1b0131c74aed1d2b27684f506&insee=35238')
+    req = requests.get('https://tinyurl.com/4btap4f6')
    
     data = json.loads(req.content)
     
