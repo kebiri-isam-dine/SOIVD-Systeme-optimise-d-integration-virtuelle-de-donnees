@@ -66,7 +66,6 @@ pip install dateutil
 ## Packages
 
 ```python
-
 json
 requests as rq
 dateutil.parser
@@ -76,7 +75,6 @@ termcolor
 contextlib
 urllib
 BeautifulSoup
-
 ```
 ## Conception
 La figure ci-dessus représente l’architecture adoptée pour la réalisation du présent projet. Il s’agit d’une architecture Adaptateur-Médiateur dont on va utiliser l’approche GAV
