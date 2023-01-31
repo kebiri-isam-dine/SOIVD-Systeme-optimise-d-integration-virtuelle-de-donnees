@@ -65,8 +65,7 @@ pip install dateutil
 
 ## Packages
 
-```python
-json : https://docs.python.org/2/library/json.html
+json : (https://docs.python.org/2/library/json.html)
 requests : https://fr.python-requests.org/en/latest/
 dateutil : https://dateutil.readthedocs.io/en/stable/
 pandas : https://pandas.pydata.org/docs/
@@ -75,7 +74,7 @@ termcolor : https://pypi.org/project/termcolor/
 contextlib
 urllib : https://docs.python.org/fr/3/library/urllib.html
 BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-```
+
 ## Conception
 La figure ci-dessus représente l’architecture adoptée pour la réalisation du présent projet. Il s’agit d’une architecture Adaptateur-Médiateur dont on va utiliser l’approche GAV
 <img src="./Diagrams/SOIVD_Global_architecture.jpg">
