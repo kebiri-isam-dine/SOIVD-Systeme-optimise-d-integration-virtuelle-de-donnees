@@ -67,15 +67,15 @@ pip install dateutil
 
 ```python
 
-import json
-import requests as rq
-import dateutil.parser
-import pandas as pd
-from pandasql import sqldf
-from termcolor import colored
-from contextlib import closing
-from urllib.request import urlopen
-from bs4 import BeautifulSoup as bs
+json
+requests as rq
+dateutil.parser
+pandas
+pandasql
+termcolor
+contextlib
+urllib
+BeautifulSoup
 ```
 ## Conception
 La figure ci-dessus représente l’architecture adoptée pour la réalisation du présent projet. Il s’agit d’une architecture Adaptateur-Médiateur dont on va utiliser l’approche GAV
