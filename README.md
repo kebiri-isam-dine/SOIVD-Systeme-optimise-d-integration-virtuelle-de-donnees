@@ -65,7 +65,7 @@ pip install dateutil
 
 ## Packages
 
-json : (https://docs.python.org/2/library/json.html)
+json : https://docs.python.org/2/library/json.html
 
 requests : https://fr.python-requests.org/en/latest/
 
