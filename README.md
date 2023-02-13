@@ -13,7 +13,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Master2-IAFA/65307369?style=social)
 
 
-# **Chef d'œuvre – Projet fin d’étude** 
+# **Projet Chef d'œuvre ** 
 ### **Université Toulouse III - Paul Sabatier**
 
 Membres du groupe :
@@ -91,7 +91,7 @@ Diagramme de séquence
 <img src="./Diagrams/SOIVD_Sequence_diagram.jpg">
 
 
-## Dataset
+## Datasets
 
 Choix des BDs : Nous avons choisi les bases de données par rapport aux contextes de crise de l’énergie, nous exploiterons donc deux API contenant des données relatives à la consommation gaz et électricité dans différentes régions, le troisième API quant à lui contient des données météorologiques notamment température et humidité sur différents laps de temps
 
