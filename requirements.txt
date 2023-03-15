@@ -1,1 +1,15 @@
-### vide pour l'instant
+# pip install -r requirements.txt
+datetime  
+requests 
+json
+pandas 
+pandasql
+time
+numpy 
+psutil
+os
+csv
+memory_profiler
+termcolor
+bs4
+flask

@@ -7,13 +7,45 @@ body {
     padding-bottom: 50px;
     text-align: center;
     width: 70%;
+    margin:auto
 }
 
-h1 {
-    width: 70%;
+.header h1 {
+    width: 100%;
     margin: auto;
-    background-color: #fff;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+.header p  {
+    width: 100%;
+    margin: 100px;
+    
+}
+
+.header img  {
+    width: 100%;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+
+.content {
+    width: 100%; 
+    margin-right: auto;
+    margin-left:100px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    margin : 50px;
+    border: 1px solid black;
+    padding: 20px;
+
 }

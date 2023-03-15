@@ -11,38 +11,69 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <h1>Bienvenue sur  SOIVD !</h1>
+    <div class="header">
+      <h1>Bienvenue sur  SOIVD !</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores deleniti nam beatae veritatis. Commodi ex ratione consequuntur molestias, obcaecati laudantium distinctio libero ullam reiciendis odio veritatis perferendis ipsum, laborum debitis?</p>
+    </div>
+    <h6 style="margin-left:100px ; margin-bottom: 20px;">Complétez ce formulaire :</h6>
+    <div class="content">
+      
+     <form class="form" action="{{url_for('post_submit_form')}}" method="POST">
+       <div class="form-group" >
+         <label for="city">City</label>
+         <input type="text" class="form-control" name="city" id="city" placeholder="Toulouse, Paris, Rennes ...">
+       </div>
+       <br>
+       <div class="form-group">
+         <label for="meteo">Infos Météo</label>
+         <select class="form-control" id="meteo" name="meteo">
+           <option>Current Weather</option>
+           <option>Evening Weather </option>
+           <option>tomorrow's Weather </option>
+           <option>Humidity</option>
+           <option>Etc ... </option>
+         </select>
+       </div>
+       <br> 
+       <div class="form-group">
+           <label for="energie">Infos Energies</label>
+           <select class="form-control" id="energie" name="energie">
+             <option>Requête 1</option>
+             <option>Requête 2 </option>
+             <option>Requête 3 </option>
+             <option>Etc ... </option>
 
-    <form action="{{url_for('post_submit')}}" method="POST">
-        <div class="form-group" >
-          <label for="city">City</label>
-          <input type="text" class="form-control" name="city" id="city" placeholder="Toulouse, Paris, Rennes ...">
-        </div>
-        <br>
-        <div class="form-group">
-          <label for="meteo">Infos Météo</label>
-          <select class="form-control" id="meteo" name="meteo">
-            <option>Current Weather</option>
-            <option>Evening Weather </option>
-            <option>tomorrow's Weather </option>
-            <option>Humidity</option>
-            <option>Etc ... </option>
+           </select>
+       </div>
+       <br> 
+       <div class="form-group">
+        <label for="démo">Infos Démographiques</label>
+        <select class="form-control" id="démo" name="démo">
+          <option>Requête 1</option>
+          <option>Requête 2 </option>
+          <option>Requête 3 </option>
+          <option>Etc ... </option>
 
-          </select>
-        </div>
-        <br> 
-        <div class="form-group">
-            <label for="energie">Infos Energies</label>
-            <select class="form-control" id="energie" name="energie">
-              <option>Requête 1</option>
-              <option>Requête 2 </option>
-              <option>Requête 3 </option>
-              <option>Etc ... </option>
-  
-            </select>
-        </div>
-        <br> <br> 
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        </select>
+       </div>
+       <br>  
+       <div class="form-group">
+        <label for="seisme">Infos sur le danger de Séisme : </S></label>
+        <select class="form-control" id="seisme" name="seisme">
+          <option>Requête 1</option>
+          <option>Requête 2 </option>
+          <option>Requête 3 </option>
+          <option>Etc ... </option>
+        </select>
+       </div>
+       <br> <br> 
+       <div class="btnContainer">
+        <button href="/post_submit_form" class="btn btn-primary">Submit</button>
+        <a href="/sqlQuery" class="btn btn-primary stretched-link">SQL Query</a>
+      </div>
+     </form>
+    </div>
+    
+    
 </body>
 </html>
